@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.top-h {
+    background-image: url(images/imgp.jpg);
+    height: auto;
+    min-width: 100%;
+    opacity: 0,3%;
+    
+}
+
+#sigla {
+    border-radius: 50%;
+    margin-right: auto;
+}
+
+
+
+header {
+    background-color: transparent;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 100px;
+}
+
+.sigla {
+    display: flex;
+   
+    justify-self: flex-start;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15 px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    transition: 0.4s ease-in-out;
+    font-family:'Courier New', Courier, monospace;
+}
+ 
+nav ul li a:hover {
+    color: pink;
+}
+
+.first-element {
+    text-align: center;
+    padding: 10px 10px;
+    margin-top: 20px;
+    border-block: 2px solid #d779b7;
+    border-radius: 40px;
+    margin: auto;
+
+}
+
+h1 {
+    color: #ff99ff;
+    margin-bottom: 10px;
+}
+h1:hover{
+    text-shadow: 5px 7px 7px violet;
+    cursor: pointer;
+}
+
+#search {
+    width: 20%;
+    box-sizing: border-box;
+    border: 2px solid #d779b7;
+    border-radius: 4px;
+    font-size: 16px;
+}
+i{
+    border: #ff99ff;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    border-radius: 40px;
+}
+
+.container-courses {
+    display: block;
+    gap: 20px;
+    display: grid;
+    justify-content: baseline;
+}
+.corses {
+    text-align: center;
+    border: transparent;
+    width: 420px;
+    height: 420px;
+    padding-top: 20px;
+    box-shadow: 5px 5px 20px 9px rgb(234, 141, 231);
+}
+.corses:hover {
+    box-shadow: 0px 5px 15px #bdbdbd;
+    cursor: pointer;
+
+}
+
+.ct-1  .corses{
+    display: inline-block;
+    margin: auto 30px;
+    margin-top: 30px;   
+
+}
+.ct-2 .corses {
+    display: inline-block;
+    margin: auto 30px;
+}
+
+.ct-3 .corses {
+    display: inline-block;
+    margin: auto 30px;
+}
+
+.ct-4 .corses {
+    display: inline-block;
+    margin: auto 30px;
+}
+
+.ct-5 .corses {
+    display: inline-block;
+    margin: auto 30px;
+}
+
+.first-element .container-courses  {
+    text-align: center;
+    justify-content: center;
+}
+
+button {
+    text-align: center;
+    background-color: black;
+    color: whitesmoke;
+    size: 18px;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+button:hover {
+    background: hotpink;
+    cursor: pointer;
+}
+
+/*footer section*/
+
+.sub{
+    background: rgb(55, 2, 62);
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-style: oblique;
+    margin-top: 40px;
+    padding: 20px 20px;
+    opacity: 0,3%;
+    margin-top: 70px;
+}
+#p1 {
+    text-align: left;
+    font-size: 8px;
+}
+.social {
+    list-style: none;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 1px 0 3px 0;
+}
+
+.social li {
+    margin: 0 10px;
+}
+
+.social a i {
+    font-size: 1.1px;
+}
+
+.social  i:hover {
+    color: bisque;
+    cursor: pointer;
+}
